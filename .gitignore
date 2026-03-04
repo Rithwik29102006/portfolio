@@ -4,3 +4,4 @@ server/data/
 server/.env
 .env
 .DS_Store
+.vercel
