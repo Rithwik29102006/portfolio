@@ -358,11 +358,11 @@ async function startServer() {
         ensureFallbackDir();
     }
 
-    app.listen(PORT, () => {
+    app.listen(PORT, '0.0.0.0', () => {
         console.log('');
         console.log('═══════════════════════════════════════════');
         console.log(`  🚀 Contact API Server running on port ${PORT}`);
-        console.log(`  📡 API Endpoint: http://localhost:${PORT}/api/contact`);
+        console.log(`  📡 API Endpoint: http://0.0.0.0:${PORT}/api/contact`);
         console.log(`  💾 Database: ${useMongoDb ? 'MongoDB' : 'JSON File (fallback)'}`);
         console.log(`  📧 Email: ${EMAIL_ENABLED ? 'Enabled' : 'Disabled (set EMAIL_USER & EMAIL_PASS)'}`);
         console.log('═══════════════════════════════════════════');
