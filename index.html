@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thoomu Rithwik Reddy — Full Stack Developer & AI/ML Enthusiast." />
+  <title>Rithwik Reddy | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+  <div class="bg-layer" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
+    <div class="orb orb-5"></div>
+    <div class="orb orb-6"></div>
+    <div class="bg-grid"></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#hall-of-fame" class="nav-link">Hall of Fame</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#certifications" class="nav-link">Certs</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <div class="nav-sep"></div>
+      <a href="#" class="nav-resume" id="resumeBtn">Resume</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-cursor-glow" id="cursorGlow"></div>
+    <div class="hero-photo-bg">
+      <img src="assets/images/hero-bg.jpeg" alt=""
+        onerror="this.src='assets/images/profile-forest.jpg'; this.onerror=null;" />
+      <div class="hero-photo-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-name-wrap" id="heroNameWrap">
+        <h1 class="hero-line hero-line-1" id="heroLine1"><span class="hover-text">RITHWIK REDDY</span></h1>
+        <h1 class="hero-line hero-line-2" id="heroLine2"><span class="hover-text">THOOMU</span></h1>
+      </div>
+      <div class="hero-role-wrap" id="heroRoleWrap">
+        <div class="role-slider">
+          <span class="role-slide active">Full Stack Developer 🚀</span>
+        </div>
+      </div>
+      <div class="hero-btns" id="heroBtns">
+        <a href="#projects" class="btn-primary" id="heroBtn1">View Work <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn-outline" id="heroBtn2">Contact Me</a>
+      </div>
+      <div class="hero-socials" id="heroSocials">
+        <a href="https://www.linkedin.com/in/rithwik-reddy-thoomu-59789732a/" target="_blank" rel="noopener"
+          class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Rithwik29102006" target="_blank" rel="noopener" class="social-icon"><i
+            class="fab fa-github"></i></a>
+        <a href="mailto:rithwikreddy1029@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span><span class="dot"></span>Python</span>
+      <span><span class="dot"></span>React.js</span>
+      <span><span class="dot"></span>Node.js</span>
+      <span><span class="dot"></span>JavaScript</span>
+      <span><span class="dot"></span>AI / ML</span>
+      <span><span class="dot"></span>Supabase</span>
+      <span><span class="dot"></span>MongoDB</span>
+      <span><span class="dot"></span>FastAPI</span>
+      <span><span class="dot"></span>HTML5</span>
+      <span><span class="dot"></span>CSS3</span>
+      <span><span class="dot"></span>Git</span>
+      <span><span class="dot"></span>n8n</span>
+      <span><span class="dot"></span>Python</span>
+      <span><span class="dot"></span>React.js</span>
+      <span><span class="dot"></span>Node.js</span>
+      <span><span class="dot"></span>JavaScript</span>
+      <span><span class="dot"></span>AI / ML</span>
+      <span><span class="dot"></span>Supabase</span>
+      <span><span class="dot"></span>MongoDB</span>
+      <span><span class="dot"></span>FastAPI</span>
+      <span><span class="dot"></span>HTML5</span>
+      <span><span class="dot"></span>CSS3</span>
+      <span><span class="dot"></span>Git</span>
+      <span><span class="dot"></span>n8n</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section noise-bg" id="about">
+    <div class="container">
+      <div class="section-head wiv-fade">
+        <h2 class="section-title">Behind the Code</h2>
+        <p class="section-sub">Who I am and what drives me.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo wiv-left">
+          <div class="about-photo-card">
+            <img src="assets/images/profile-main.png" alt="Rithwik Reddy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="photo-fallback">RR</div>
+          </div>
+        </div>
+        <div class="about-text wiv-right">
+          <p class="about-para">I'm a passionate <span class="text-primary">B.Tech Information Technology</span> student
+            obsessed with the intersection of creativity and logic.</p>
+          <p class="about-para">Currently diving deep into <span class="text-primary">Full Stack & AI Development</span>
+            and building systems that solve real-world problems. My goal is simple: Create software that feels like
+            magic.</p>
+          <blockquote class="about-quote">"Where you start doesn't matter, starting now does matter. And trusting
+            yourself makes all the difference."</blockquote>
+          <div class="badge-row">
+            <span class="badge">B.Tech IT</span>
+            <span class="badge">Full Stack Dev</span>
+            <span class="badge">AI Explorer</span>
+            <span class="badge">Tech Lead</span>
+            <span class="badge gssoc-badge"><i class="fas fa-code-branch"></i> GSSoC'26 Contributor</span>
+          </div>
+          <a href="#" class="btn-primary mt-6" id="downloadCV"><i class="fas fa-download"></i> Download CV</a>
+          <div class="stat-cards">
+            <div class="stat-card">
+              <div class="stat-card-head"><i class="fas fa-briefcase"></i><span>Experience</span></div>
+              <p class="stat-card-val">Intern + Lead</p>
+              <p class="stat-card-sub">Learning & Growing</p>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card-head"><i class="fas fa-map-marker-alt"></i><span>Location</span></div>
+              <p class="stat-card-val">INDIA</p>
+              <p class="stat-card-sub">Hyderabad</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACADEMIC ASCENT -->
+  <section class="section noise-bg" id="academic">
+    <div class="container">
+      <div class="section-head wiv-fade">
+        <h2 class="section-title">Academic Ascent</h2>
+        <p class="section-sub">The foundation of my engineering journey.</p>
+      </div>
+      <div class="academic-list">
+
+        <div class="academic-card wiv-card" data-i="0">
+          <div class="ac-icon" style="background:linear-gradient(135deg,hsl(27 95% 60%),hsl(27 95% 45%))">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="ac-body">
+            <div class="ac-meta">2024 – 2028</div>
+            <div class="ac-title">B.Tech Information Technology</div>
+            <div class="ac-inst">Matrusri Engineering College, Hyderabad, India</div>
+          </div>
+          <div class="ac-loc"><i class="fas fa-map-marker-alt"></i> Hyderabad</div>
+          <div class="ac-corner"></div>
+        </div>
+
+        <div class="academic-card wiv-card" data-i="1">
+          <div class="ac-icon" style="background:hsl(0 0% 26%)">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="ac-body">
+            <div class="ac-meta">2021 – 2023 <span class="ac-score">92%+</span></div>
+            <div class="ac-title">Intermediate (12th)</div>
+            <div class="ac-inst">Board of Intermediate Education, Telangana</div>
+          </div>
+          <div class="ac-loc"><i class="fas fa-map-marker-alt"></i> Hyderabad</div>
+          <div class="ac-corner"></div>
+        </div>
+
+        <div class="academic-card wiv-card" data-i="2">
+          <div class="ac-icon" style="background:hsl(0 0% 26%)">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="ac-body">
+            <div class="ac-meta">2020 – 2021 <span class="ac-score">95%+</span></div>
+            <div class="ac-title">Matriculation (10th)</div>
+            <div class="ac-inst">Board of Secondary Education, Telangana</div>
+          </div>
+          <div class="ac-loc"><i class="fas fa-map-marker-alt"></i> Hyderabad</div>
+          <div class="ac-corner"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section noise-bg" id="experience">
+    <div class="container">
+      <div class="section-head wiv-fade">
+        <h2 class="section-title">My Journey</h2>
+        <p class="section-sub">Real-world experience that shaped me.</p>
+      </div>
+      <div class="exp-list">
+        <div class="exp-card wiv-card" data-i="0">
+          <div class="exp-icon" style="background:hsl(27 95% 60%)"><i class="fas fa-users-cog"></i></div>
+          <div class="exp-body">
+            <div class="exp-meta">2024 – Present <span class="exp-badge">Current</span></div>
+            <div class="exp-role">Tech Lead</div>
+            <div class="exp-org">SDC India <span class="exp-loc"><i class="fas fa-map-marker-alt"></i> India</span>
+            </div>
+          </div>
+          <div class="exp-corner"></div>
+        </div>
+        <div class="exp-card wiv-card" data-i="1">
+          <div class="exp-icon" style="background:hsl(262 80% 60%)"><i class="fas fa-laptop-code"></i></div>
+          <div class="exp-body">
+            <div class="exp-meta">2024</div>
+            <div class="exp-role">Full Stack Web Development Intern</div>
+            <div class="exp-org">Calanjiyam Consultancies & Technologies <span class="exp-loc"><i
+                  class="fas fa-map-marker-alt"></i> India</span></div>
+          </div>
+          <div class="exp-corner"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section noise-bg" id="projects">
+    <div class="container">
+      <div class="section-head wiv-fade">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">Engineering solutions for the real world.</p>
+      </div>
+      <div class="proj-grid">
+        <article class="proj-card wiv-card" data-i="0"
+          style="--g1:hsl(340 80% 40%/0.25);--g2:hsl(340 80% 30%/0.1);--b:hsl(340 80% 50%/0.35);--bh:hsl(340 80% 60%/0.6);--glow:hsl(340 80% 50%/0.4);--th:hsl(340 80% 70%)">
+          <div class="proj-glow"></div>
+          <div class="proj-badge-wrap"><span class="proj-badge"><i class="fas fa-trophy"></i> CodeQuest 2026</span>
+          </div>
+          <h3 class="proj-title">ReplyAI</h3>
+          <p class="proj-desc">AI-powered WhatsApp customer communication platform for micro-SMEs. Auto-replies in &lt;5
+            sec, classifies intent, scores leads, sends order confirmations — built with n8n + Groq + Twilio.</p>
+          <div class="proj-tech"><span>n8n</span><span>Groq
+              AI</span><span>Twilio</span><span>Airtable</span><span>JS</span></div>
+          <div class="proj-links">
+            <a href="https://replyaibakery1.netlify.app/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Visit Site</a>
+            <a href="https://github.com/Rithwik29102006/ReplyAI" target="_blank" rel="noopener"><i
+                class="fab fa-github"></i> Code</a>
+          </div>
+        </article>
+        <article class="proj-card wiv-card" data-i="1"
+          style="--g1:hsl(262 80% 40%/0.25);--g2:hsl(262 80% 30%/0.1);--b:hsl(262 80% 50%/0.35);--bh:hsl(262 80% 60%/0.6);--glow:hsl(262 80% 50%/0.4);--th:hsl(262 80% 75%)">
+          <div class="proj-glow"></div>
+          <div class="proj-badge-wrap"><span class="proj-badge"><i class="fas fa-robot"></i> AI Project</span></div>
+          <h3 class="proj-title">MaskIt AI</h3>
+          <p class="proj-desc">Detects and anonymizes PII across text, images, and documents using advanced NLP and
+            computer vision techniques.</p>
+          <div class="proj-tech"><span>Python</span><span>AI/ML</span><span>NLP</span><span>FastAPI</span></div>
+          <div class="proj-links">
+            <a href="https://mask-it-ai.vercel.app/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Visit Site</a>
+            <a href="https://github.com/Rithwik29102006" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </article>
+        <article class="proj-card wiv-card" data-i="2"
+          style="--g1:hsl(160 84% 30%/0.25);--g2:hsl(160 84% 20%/0.1);--b:hsl(160 84% 40%/0.35);--bh:hsl(160 84% 50%/0.6);--glow:hsl(160 84% 39%/0.4);--th:hsl(160 84% 60%)">
+          <div class="proj-glow"></div>
+          <div class="proj-badge-wrap"><span class="proj-badge"><i class="fas fa-brain"></i> EdTech</span></div>
+          <h3 class="proj-title">Chron Keeper</h3>
+          <p class="proj-desc">Personalized student learning management app tracking schedules and deadlines with
+            AI-powered study recommendations.</p>
+          <div class="proj-tech"><span>React.js</span><span>Node.js</span><span>MongoDB</span><span>AI</span></div>
+          <div class="proj-links">
+            <a href="https://github.com/Rithwik29102006" target="_blank" rel="noopener"><i class="fab fa-github"></i>
+              Code</a>
+          </div>
+        </article>
+        <article class="proj-card wiv-card" data-i="3"
+          style="--g1:hsl(210 80% 35%/0.25);--g2:hsl(210 80% 20%/0.1);--b:hsl(210 80% 45%/0.35);--bh:hsl(210 80% 55%/0.6);--glow:hsl(210 80% 45%/0.4);--th:hsl(210 80% 70%)">
+          <div class="proj-glow"></div>
+          <div class="proj-badge-wrap"><span class="proj-badge"><i class="fas fa-heartbeat"></i> Healthcare</span></div>
+          <h3 class="proj-title">Sehat Connect</h3>
+          <p class="proj-desc">AI-powered telehealth platform connecting rural patients with providers. Features symptom
+            analysis and appointment scheduling.</p>
+          <div class="proj-tech"><span>Python</span><span>React.js</span><span>AI/ML</span><span>Node.js</span></div>
+          <div class="proj-links">
+            <a href="https://sehat-connect-gamma.vercel.app/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Visit Site</a>
+            <a href="https://github.com/Rithwik29102006" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </article>
+        <article class="proj-card wiv-card" data-i="4"
+          style="--g1:hsl(30 90% 35%/0.25);--g2:hsl(30 90% 20%/0.1);--b:hsl(30 90% 45%/0.35);--bh:hsl(30 90% 55%/0.6);--glow:hsl(30 90% 45%/0.4);--th:hsl(30 90% 65%)">
+          <div class="proj-glow"></div>
+          <div class="proj-badge-wrap"><span class="proj-badge"><i class="fas fa-chart-bar"></i> Internship</span></div>
+          <h3 class="proj-title">Feedback Collection System</h3>
+          <p class="proj-desc">Full-featured feedback platform with analytics dashboard, real-time data visualization,
+            and role-based access control.</p>
+          <div class="proj-tech"><span>React.js</span><span>PHP</span><span>MySQL</span><span>REST API</span></div>
+          <div class="proj-links">
+            <a href="https://github.com/Rithwik29102006" target="_blank" rel="noopener"><i class="fab fa-github"></i>
+              Code</a>
+          </div>
+        </article>
+        <article class="proj-card wiv-card" data-i="5"
+          style="--g1:hsl(280 70% 35%/0.25);--g2:hsl(280 70% 20%/0.1);--b:hsl(280 70% 45%/0.35);--bh:hsl(280 70% 55%/0.6);--glow:hsl(280 70% 45%/0.4);--th:hsl(280 70% 70%)">
+          <div class="proj-glow"></div>
+          <div class="proj-badge-wrap"><span class="proj-badge"><i class="fas fa-briefcase"></i> Web App</span></div>
+          <h3 class="proj-title">Career Page Web App</h3>
+          <p class="proj-desc">Full-featured career portal with job listings, advanced search, application tracking, and
+            employer dashboard.</p>
+          <div class="proj-tech"><span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
+          <div class="proj-links">
+            <a href="https://github.com/Rithwik29102006" target="_blank" rel="noopener"><i class="fab fa-github"></i>
+              Code</a>
+          </div>
+        </article>
+      </div>
+      <p class="proj-footer wiv-fade">"Learning &amp; Building More..."</p>
+    </div>
+  </section>
+
+  <!-- HALL OF FAME -->
+  <section class="section hof-section noise-bg" id="hall-of-fame">
+    <div class="container">
+      <div class="hof-header wiv-fade">
+        <div class="hof-trophy-wrap">
+          <div class="hof-trophy"><i class="fas fa-trophy"></i></div>
+        </div>
+        <h2 class="hof-title">Hall of Fame</h2>
+        <p class="hof-sub">Celebrating victories &amp; milestones</p>
+      </div>
+      <div class="hof-card wiv-card" data-i="0">
+        <div class="hof-card-glow"></div>
+        <div class="hof-card-top">
+          <div class="hof-icon"><i class="fas fa-code"></i></div>
+          <div>
+            <div class="hof-event">HackerRank — Orchestrate Hackathon</div>
+            <div class="hof-event-sub">Global Competition </div>
+          </div>
+          <span class="hof-year">2026</span>
+        </div>
+        <div class="hof-rank-badge"><i class="fas fa-star"></i> Global Rank #260 <i class="fas fa-star"></i>
+        </div>
+        <div class="hof-details">
+          <div class="hof-field">Score</div>
+          <div class="hof-value">53.7 / 100</div>
+        </div>
+        <div class="hof-quote">"Competed globally in AI agent & automation — ranked in top 10% worldwide
+          participants."</div>
+        <div class="hof-links">
+          <a href="https://www.hackerrank.com" target="_blank" rel="noopener" class="btn-outline hof-btn"><i
+              class="fas fa-external-link-alt"></i> View Rank</a>
+        </div>
+      </div>
+      <div class="hof-card wiv-card" data-i="1">
+        <div class="hof-card-glow"></div>
+        <div class="hof-card-top">
+          <div class="hof-icon"><i class="fas fa-robot"></i></div>
+          <div>
+            <div class="hof-event">CodeQuesters Hackathon</div>
+            <div class="hof-event-sub">SaaS / Communication Automation Track</div>
+          </div>
+          <span class="hof-year">2026</span>
+        </div>
+        <div class="hof-rank-badge"><i class="fas fa-medal"></i> Top 10 Finalist <i class="fas fa-medal"></i></div>
+        <div class="hof-details-row">
+          <div class="hof-field">Project</div>
+          <div class="hof-value">ReplyAI</div>
+          <div class="hof-field" style="margin-top:4px;font-size:13px">AI-powered WhatsApp automation for micro-SMEs
+          </div>
+        </div>
+        <div class="hof-quote">"Built an AI automation platform that handles WhatsApp customer replies for any micro-SME
+          business in under 5 seconds."</div>
+        <div class="hof-links">
+          <a href="https://replyaibakery1.netlify.app/" target="_blank" rel="noopener" class="btn-primary hof-btn"><i
+              class="fas fa-external-link-alt"></i> View Project</a>
+          <a href="https://github.com/Rithwik29102006/ReplyAI" target="_blank" rel="noopener"
+            class="btn-outline hof-btn"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section noise-bg" id="skills">
+    <div class="container">
+      <div class="section-head wiv-fade">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <p class="section-sub">Tools and skills I'm using now to build projects.</p>
+      </div>
+      <div class="skills-grid-7">
+        <div class="skill-card-sm wiv-card" data-i="0"
+          style="--sk-g:linear-gradient(135deg,#3b82f6,#06b6d4);--sk-h:hsl(210 80% 50%/0.4);--sk-b:hsl(210 80% 60%/0.5)">
+          <div class="sk-glow"></div>
+          <div class="sk-icon"><i class="fas fa-code"></i></div><span>Web Dev</span>
+        </div>
+        <div class="skill-card-sm wiv-card" data-i="1"
+          style="--sk-g:linear-gradient(135deg,#eab308,#22c55e);--sk-h:hsl(120 60% 50%/0.4);--sk-b:hsl(120 60% 60%/0.5)">
+          <div class="sk-glow"></div>
+          <div class="sk-icon"><i class="fas fa-terminal"></i></div><span>Python</span>
+        </div>
+        <div class="skill-card-sm wiv-card" data-i="2"
+          style="--sk-g:linear-gradient(135deg,#6366f1,#4f46e5);--sk-h:hsl(240 60% 60%/0.4);--sk-b:hsl(240 60% 70%/0.5)">
+          <div class="sk-glow"></div>
+          <div class="sk-icon"><i class="fas fa-microchip"></i></div><span>C / C++</span>
+        </div>
+        <div class="skill-card-sm wiv-card" data-i="3"
+          style="--sk-g:linear-gradient(135deg,#10b981,#14b8a6);--sk-h:hsl(160 80% 45%/0.4);--sk-b:hsl(160 80% 55%/0.5)">
+          <div class="sk-glow"></div>
+          <div class="sk-icon"><i class="fas fa-database"></i></div><span>Database</span>
+        </div>
+        <div class="skill-card-sm wiv-card" data-i="4"
+          style="--sk-g:linear-gradient(135deg,#a855f7,#ec4899);--sk-h:hsl(280 70% 60%/0.4);--sk-b:hsl(280 70% 70%/0.5)">
+          <div class="sk-glow"></div>
+          <div class="sk-icon"><i class="fas fa-wand-magic-sparkles"></i></div><span>AI Tools</span>
+        </div>
+        <div class="skill-card-sm wiv-card" data-i="5"
+          style="--sk-g:linear-gradient(135deg,#8b5cf6,#d946ef);--sk-h:hsl(270 70% 60%/0.4);--sk-b:hsl(270 70% 70%/0.5)">
+          <div class="sk-glow"></div>
+          <div class="sk-icon"><i class="fas fa-brain"></i></div><span>Prompt Eng.</span>
+        </div>
+        <div class="skill-card-sm wiv-card" data-i="6"
+          style="--sk-g:linear-gradient(135deg,#f97316,#f59e0b);--sk-h:hsl(27 95% 60%/0.4);--sk-b:hsl(27 95% 70%/0.5)">
+          <div class="sk-glow"></div>
+          <div class="sk-icon"><i class="fas fa-comments"></i></div><span>Soft Skills</span>
+        </div>
+      </div>
+      <p class="proj-footer wiv-fade">"Learning More..."</p>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section noise-bg" id="certifications">
+    <div class="container">
+      <div class="section-head wiv-fade">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-sub">Validating skills through official credentials.</p>
+      </div>
+      <div class="cert-grid cert-grid-2">
+
+        <div class="cert-card wiv-card" data-i="0"
+          style="--cg:hsl(27 95% 60%/0.1);--cb:hsl(27 95% 60%/0.25);--cbh:hsl(27 95% 60%/0.55);--cglow:hsl(27 95% 60%/0.35);--ci:hsl(27 95% 60%/0.2);--cic:hsl(27 95% 65%);--cyr:hsl(27 95% 65%)">
+          <div class="cert-glow"></div>
+          <div class="cert-card-top">
+            <div class="cert-icon"><i class="fas fa-award"></i></div>
+            <span class="cert-year">2024</span>
+          </div>
+          <h3 class="cert-title">Full Stack Development Program</h3>
+          <p class="cert-issuer">Physics Wallah (PW Skills)</p>
+          <p class="cert-desc">Comprehensive full stack web development covering React, Node.js, databases, REST APIs and deployment.</p>
+          <a href="https://pwskills.com/learn/certificate/2cdf8b03-946e-4e83-85fc-b0c8c873a621/" target="_blank" rel="noopener" class="cert-link"><i class="fas fa-external-link-alt"></i> Verify Credential</a>
+        </div>
+
+        <div class="cert-card wiv-card" data-i="1"
+          style="--cg:hsl(160 80% 40%/0.1);--cb:hsl(160 80% 40%/0.25);--cbh:hsl(160 80% 50%/0.55);--cglow:hsl(160 80% 40%/0.35);--ci:hsl(160 80% 40%/0.2);--cic:hsl(160 80% 60%);--cyr:hsl(160 80% 60%)">
+          <div class="cert-glow"></div>
+          <div class="cert-card-top">
+            <div class="cert-icon"><i class="fas fa-award"></i></div>
+            <span class="cert-year">2025</span>
+          </div>
+          <h3 class="cert-title">Deloitte Australia — Technology Virtual Internship</h3>
+          <p class="cert-issuer">Deloitte (via Forage)</p>
+          <p class="cert-desc">Technology consulting, data analysis, and professional practices in a simulated Deloitte environment.</p>
+          <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_79kLx38ZcSQT49ypp_1744967727272_completion_certificate.pdf" target="_blank" rel="noopener" class="cert-link"><i class="fas fa-external-link-alt"></i> Verify Credential</a>
+        </div>
+
+        <div class="cert-card wiv-card" data-i="2"
+          style="--cg:hsl(210 80% 50%/0.1);--cb:hsl(210 80% 50%/0.25);--cbh:hsl(210 80% 60%/0.55);--cglow:hsl(210 80% 50%/0.35);--ci:hsl(210 80% 50%/0.2);--cic:hsl(210 80% 70%);--cyr:hsl(210 80% 70%)">
+          <div class="cert-glow"></div>
+          <div class="cert-card-top">
+            <div class="cert-icon"><i class="fas fa-award"></i></div>
+            <span class="cert-year">May 2026</span>
+          </div>
+          <h3 class="cert-title">Artificial Intelligence Primer Certification</h3>
+          <p class="cert-issuer">Infosys Springboard</p>
+          <p class="cert-desc">Foundational AI concepts, machine learning principles, and practical AI applications.</p>
+          <span class="cert-link cert-no-link"><i class="fas fa-check-circle"></i> Credential Verified</span>
+        </div>
+
+        <div class="cert-card wiv-card" data-i="3"
+          style="--cg:hsl(262 80% 50%/0.1);--cb:hsl(262 80% 50%/0.25);--cbh:hsl(262 80% 60%/0.55);--cglow:hsl(262 80% 50%/0.35);--ci:hsl(262 80% 50%/0.2);--cic:hsl(262 80% 75%);--cyr:hsl(262 80% 75%)">
+          <div class="cert-glow"></div>
+          <div class="cert-card-top">
+            <div class="cert-icon"><i class="fas fa-award"></i></div>
+            <span class="cert-year">May 2026</span>
+          </div>
+          <h3 class="cert-title">Principles of Generative AI Certification</h3>
+          <p class="cert-issuer">Infosys Springboard</p>
+          <p class="cert-desc">Generative AI fundamentals, large language models, prompt engineering and GenAI applications.</p>
+          <span class="cert-link cert-no-link"><i class="fas fa-check-circle"></i> Credential Verified</span>
+        </div>
+
+      </div>
+      <p class="proj-footer wiv-fade">"Learning &amp; Earning More..."</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section noise-bg" id="contact">
+    <div class="container">
+      <div class="section-head wiv-fade">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-sub">Open for collaborations and new opportunities.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-form-card wiv-left">
+          <form id="contactForm" novalidate>
+            <div class="form-field"><label>Name</label><input type="text" placeholder="Your name" id="contactName"
+                required /></div>
+            <div class="form-field"><label>Email</label><input type="email" placeholder="your@email.com"
+                id="contactEmail" required /></div>
+            <div class="form-field"><label>Message</label><textarea placeholder="Your message..." id="contactMessage"
+                rows="5" required></textarea></div>
+            <button type="submit" class="btn-primary btn-full" id="submitBtn"><i class="fas fa-paper-plane"></i> Send
+              Message</button>
+            <div class="form-success" id="formSuccess"><i class="fas fa-check-circle"></i> Message sent! I'll get back
+              to you soon.</div>
+            <div class="form-error-msg" id="formError"><i class="fas fa-exclamation-circle"></i> Something went wrong.
+              Please try again.</div>
+          </form>
+        </div>
+        <div class="contact-info-col wiv-right">
+          <div class="contact-info-card">
+            <p class="contact-info-title">Contact Info</p>
+            <a href="mailto:rithwikreddy1029@gmail.com" class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <div class="contact-item-label">Email Me</div>
+                <div class="contact-item-val">rithwikreddy1029@gmail.com</div>
+              </div>
+              <i class="fas fa-arrow-up-right-from-square contact-arr"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rithwik-reddy-thoomu-59789732a/" target="_blank" rel="noopener"
+              class="contact-item">
+              <div class="contact-item-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <div class="contact-item-label">LinkedIn</div>
+                <div class="contact-item-val">rithwik-reddy-thoomu</div>
+              </div>
+              <i class="fas fa-arrow-up-right-from-square contact-arr"></i>
+            </a>
+            <a href="tel:+919281043214" class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <div class="contact-item-label">Phone</div>
+                <div class="contact-item-val">+91 92810 43214</div>
+              </div>
+              <i class="fas fa-arrow-up-right-from-square contact-arr"></i>
+            </a>
+          </div>
+          <div class="contact-socials-card">
+            <p class="contact-info-title">Socials</p>
+            <div class="socials-row">
+              <a href="https://github.com/Rithwik29102006" target="_blank" rel="noopener" class="social-icon"><i
+                  class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/rithwik-reddy-thoomu-59789732a/" target="_blank" rel="noopener"
+                class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="mailto:rithwikreddy1029@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Thoomu Rithwik Reddy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
